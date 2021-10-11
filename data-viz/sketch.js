@@ -38,6 +38,7 @@ function draw() {
   noStroke();
   fill(255);
   textSize(15);
+      text("(click to cycle through data)", 100, 590);
   text("MAR '20", 130, 530);
   text("JUN '20", 340, 530);
   text("JAN '21", width / 2 + 70, 530);
